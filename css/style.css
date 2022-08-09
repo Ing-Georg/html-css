@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 550px){
+    .container{
+        max-width: 500px;
+        margin: auto;
+    }  
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: aqua;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    background-color: rgb(238, 236, 236);
+    margin: 10px;
+}
+header{
+    background-color: rgb(231, 236, 225);
+    font-style: bold;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+ .info{
+    color: rgb(90, 85, 85);
+    font-size: 14px;
+ }
+
+.navbar{
+background: lightblue;
+margin-bottom: 10px;
+border-radius: 10%;
+}
+
+.navbar ul{
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+padding: 0 20px;
+
+}
+
+.navbar ul li{
+    margin-right: 15px;
+    padding: 10px;
+}
+
+.navbar ul li:hover{
+background: lightcoral;
+}
+
+.current-events{
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px;
+    border-style: double;
+    border-radius: 10px;
+    
+}
+.feedback-form .forms{
+    margin: 5px;
+}
+
+.forms input,
+.forms textarea {
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(192, 191, 199);
+    color: black;
+    padding: 15px 0 20px;
+    outline: none;
+    font-family: inherit;
+}
+.forms input:focus,
+.forms textarea:focus{
+    border-bottom: 1px solid black;
+}
+
+
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid rgb(82, 73, 73);
+    border-radius: 0.6em;
+    color: rgb(82, 73, 73);
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    margin-left: auto;
+  }
+  .btn:hover, .btn:focus {
+    color: rgb(65, 10, 10);
+    outline: 0;
+  }
+  
+
+footer{
+    
+}
+
+.blocks{
+    border-top: 2px solid darkblue;
+    margin: 10px;
+    padding: 10px;
+}
+ .blocks .block {
+    
+    width: 45%;
+    float: left;
+    background-color: rgb(159, 163, 163);
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+
+ }
+
+
+.home-link{
+    text-align: left;
+    background: transparent;
+    display: flex;
+}
+
