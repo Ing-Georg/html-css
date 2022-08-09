@@ -20,9 +20,14 @@ a:hover{
 
 body{
     font-family: Roboto, sans-serif;
-    font-size: 16px;
-    background-color: rgb(238, 236, 236);
-    margin: 10px;
+    background: rgb(124, 120, 120);
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 header{
     background-color: rgb(231, 236, 225);
@@ -155,5 +160,45 @@ footer{
     text-align: left;
     background: transparent;
     display: flex;
+}
+
+.slide-container{
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+
+}
+
+.slide {
+    height: 80vh;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    color: rgb(233, 223, 226);
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+
+.slide h3{
+    position: absolute;
+    font-size: 24px;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+
+}
+
+.slide.active{
+    flex: 10;
+}
+
+.slide.active h3{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
 }
 
