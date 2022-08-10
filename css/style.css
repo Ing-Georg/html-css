@@ -20,21 +20,26 @@ a:hover{
 
 body{
     font-family: Roboto, sans-serif;
-    background: rgb(231, 228, 228);
-    margin: 0;
+    background: url(../img/back_2.jpeg) repeat;
+    width: 95%;
+    height: 95%;
 
 }
 header{
-    background-color: rgb(231, 236, 225);
+    background-color: rgb(37, 37, 36);
     font-style: bold;
     text-align: center;
-    border-radius: 10px;
     padding: 10px;
     margin-bottom: 10px;
+    background: transparent;
+    opacity: 0.7;
 }
+ .header-text{
+    color: white;
+ }
+
  .info{
-    color: rgb(90, 85, 85);
-    font-size: 14px;
+    color: white;
  }
 
 .navbar{
@@ -67,6 +72,8 @@ background: lightcoral;
     border: 1px;
     border-style: double;
     border-radius: 10px;
+    color: white;
+    opacity: 0.7;
     
 }
 .feedback-form .forms{
@@ -81,7 +88,7 @@ background: lightcoral;
     border: none;
     background: transparent;
     border-bottom: 1px solid rgb(192, 191, 199);
-    color: black;
+    color: rgb(238, 226, 226);
     padding: 15px 0 20px;
     outline: none;
     font-family: inherit;
@@ -124,14 +131,12 @@ background: lightcoral;
     margin-left: auto;
   }
   .btn:hover, .btn:focus {
-    color: rgb(65, 10, 10);
+    color: white;
+    border: 2px solid white;
     outline: 0;
+    opacity: 0.8;
   }
   
-
-footer{
-    
-}
 
 .blocks{
     border-top: 2px solid darkblue;
