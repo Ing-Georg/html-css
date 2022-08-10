@@ -20,13 +20,13 @@ a:hover{
 
 body{
     font-family: Roboto, sans-serif;
-    background: rgb(124, 120, 120);
+    background: rgb(231, 228, 228);
     margin: 0;
-    overflow: hidden;
+    /* overflow: hidden;
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 
 }
 header{
