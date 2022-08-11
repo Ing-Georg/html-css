@@ -66,16 +66,6 @@ padding: 0 20px;
 background: lightcoral;
 }
 
-.current-events{
-    padding: 10px;
-    margin-bottom: 5px;
-    border: 1px;
-    border-style: double;
-    border-radius: 10px;
-    color: white;
-    opacity: 0.7;
-    
-}
 .feedback-form .forms{
     margin: 5px;
 }
@@ -200,5 +190,39 @@ background: lightcoral;
 .slide.active h3{
     opacity: 1;
     transition: opacity 0.3s ease-in 0.4s;
+}
+
+
+.tasks-container{
+    display: flex;
+    justify-content: center;
+}
+
+.tasks_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.tasks_item{
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 3px double darkgray;
+    border-radius: 10px;
+    cursor: move;
+    color: white;
+    opacity: 0.8;
+    background-color: rgb(46, 45, 45);
+
+    transition: background-color 0.5s;
+}
+
+.tasks__item:last-child {
+    margin-bottom: 0;
+  }
+
+.selected {
+    opacity: 1;
+    border: 3px solid red;
 }
 
